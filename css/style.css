@@ -1,0 +1,118 @@
+html, body { 
+width:100%; 
+height:100%; 
+font-family: 'Oxygen', sans-serif;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+ background-color:#fff;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.hidden{
+	display: none;
+}
+
+.left-float{
+	float: left;
+}
+
+.right-float{
+	float: right;
+}
+
+.headbar img{
+	padding: 10px 10px 10px 10px;
+}
+
+#menu-button{
+	cursor: pointer;
+}
+
+.header{
+	margin-top:  5px;
+	font-size: 30px;
+	font-weight: bold;
+	white-space: nowrap;
+	margin-bottom: 30px;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.sidebar, footer, .headbar, .panel{
+	background: rgba(0,173,239,0.9);
+	color: white;
+}
+
+.headbar{
+	min-height: 70px;
+}
+
+.header-text{
+	font-size: 30px;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+footer{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sidebar img{
+	margin-left: 15px;
+}
+
+.sidebar-button{
+	cursor: pointer;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+#schedule-table{
+	width: 100%;
+	border: 1px solid black;
+}
+
+#schedule-table td{
+	padding: 5px;
+}
+
+#schedule-table td.time-column{
+	width: 100px;
+}
+
+#schedule-table td.event-column{
+	width: 35%;
+}
+
+#maker-list td{
+  padding: 0px 5px 10px 0px;
+}
+
+.panel{
+	height: 80px;
+	padding-top: 60px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
